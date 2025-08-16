@@ -1,5 +1,6 @@
 // Import React modules
 import React from "react";
+import EventHandler from "./EventHandler";
 
 const Profile = (props) => {
   const { name, hobby } = props.profile;
