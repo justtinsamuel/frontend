@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Profile from "./components/profile";
 import EventHandler from "./components/EventHandler";
+import Form from "./components/Form";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       })} */}
       {/* <EventHandler /> */}
       <Form></Form>
+      
     </div>
   );
 }

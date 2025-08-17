@@ -40,16 +40,6 @@ const EventHandler = () => {
         <button onClick={kurangHandler}>Kurang -</button>
       </div>
 
-      <div>
-        <form onSubmit={submitHandler}></form>
-        <br />
-        <small>Name: </small>
-        <input
-          type="text"
-          onChange={(e) => SVGAnimateTransformElement(e.target.value)}
-        />
-        <input type="submit" value="Submit" />
-      </div>
     </>
   );
 };
